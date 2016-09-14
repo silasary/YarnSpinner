@@ -67,3 +67,10 @@ Unity/Assets/UnityTestTools*
 
 # Unity package log
 export.log
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
