@@ -2,7 +2,7 @@ language: csharp
 solution: YarnSpinner.sln
 install:
   - nuget restore YarnSpinner.sln
-script:	
+script:
   - xbuild /p:Configuration=Release YarnSpinner.sln
   - mono ./YarnSpinnerTests/bin/Release/YarnSpinnerTests.exe
   - ./run-tests.sh -d Tests/TestCases
